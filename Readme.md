@@ -10,6 +10,11 @@ A beautiful and interactive gradient background color generator built with HTML,
 - 💡 Tooltip feedback when CSS is copied.
 - 💻 Responsive and clean UI design.
 
+## 🔗 Live Demo
+
+🌐 [View Live Project](https://nabin2002.github.io/Gradient-Color-Generator/)
+
+
 ## 📸 Screenshot
 #### 🖼️ UI
 ![Gradient Color Generator UI](assets/1.png)
