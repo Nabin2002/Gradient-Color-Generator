@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gradient Color Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Generate gradient color for your website</h1>
+    <div class="container">
+        <button class="generate-btn" id="generate">Generate Gradient</button>
+
+        <div class="button-group">
+            <button class="color-btn" id="mybutton">
+                <div class="color-circle" id="circle1" style="background-color: #a8edea;"></div>
+                <span>#a8edea</span>
+            </button>
+            <button class="color-btn" id="mybutton2">
+                <div class="color-circle" id="circle2" style="background-color: #fed6e3;"></div>
+                <span>#fed6e3</span>
+            </button>
+        </div>
+
+        <p>Click to copy gradient CSS</p>
+        <div class="gradient-display" id="gradDisplay">
+            <div class="tooltip">Copied!</div>
+            <span id="gradText">background: linear-gradient(135deg, #a8edea, #fed6e3)</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
